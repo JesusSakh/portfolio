@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: dimgray;
+}
+
+.header_wrap {
+    display: flex;
+}
+
+.header_img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.header_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.header_title {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 40px;
+    /*color: aliceblue; зачем второй раз цвет?*/
+    padding-bottom: 13px;
+}
+
+.header_text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    color: aliceblue;
+}
+
+.objective {
+    background-color: aliceblue;
+}
+
+.objective_title {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 23px;
+    padding-bottom: 25px;
+    padding-top: 65px
+}
+
+.objective_text {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 15px;
+}
+
+.experience {
+    background-color: aliceblue;
+}
+
+.experience_title {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 23px;
+    padding-top: 80px;
+    padding-bottom: 25px;
+}
+
+.experience_wrapper {
+    display: flex;
+}
+
+.experience_subtitle {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 25px;
+}
+
+.experience_text {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 150px;
+}
+
+.experience_content {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 150px;
+}
+
+.skills {
+    background-color: aliceblue;
+}
+
+.skills_title {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 23px;
+    padding-top: 80px;
+    padding-bottom: 25px;
+}
+
+.skills_text {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 80px;
+}
+
+.language {
+    background-color: aliceblue;
+    padding-bottom: 80px;
+}
+
+.language_title {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 23px;
+}
+
+.language_list {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    list-style-type: none;
+}
+
+.language_item {
+    color: black;
+}
+
+.form {
+    background-color: aliceblue;
+}
+
+.form_container {
+    display: flex;
+    justify-content: center;
+}
+
+.form_title {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 23px;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 11px;
+}
+
+.form_subtitle {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.form_input {
+    width: 366px;
+    border: 5px solid #BEB1AE;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: aliceblue;
+    font-weight: bold;
+    resize: none;
+}
+
+.form_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.form_textarea {
+    resize: none;
+    width: 209px;
+    height: 44px;
+}
+
+/* что за ошибка в textarea?*/
+
+.form_btn {
+    width: 168px;
+    height: 40px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    text-align: center;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #BEB1AE;
+}
+
+.contacts {
+    background-color: aliceblue;
+}
+
+.contacts_title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    color: black;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.contacts_list {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+.contacts_item {
+    list-style-type: none;
+}
+
+.contacts_link {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer {
+    background-color: dimgray;
+}
+
+.footer_text {
+    text-align: center;
+    padding-bottom: 10px;
+}
